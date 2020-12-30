@@ -25,10 +25,10 @@ public class FamiliarBeneficiarioServiceImpl implements FamiliarBeneficiarioServ
 				.queryParam("arqIdUsuario", idUsuarioArq);
 
 		var listaSuscripcionDTO = restTemplate.exchange(builder.toUriString(), HttpMethod.GET, null,
-			new ParameterizedTypeReference<List<SuscripcionDTO>>() {
+			new ParameterizedTypeReference<List<FamiliarBeneficiarioDTO>>() {
 		});
 		
-		return listaSuscripcionDTO;
+		return listaSuscripcionDTO.getBody();
 	}
 
 	@Override
