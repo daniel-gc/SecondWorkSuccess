@@ -544,7 +544,7 @@ public class CatalogosAfiliacionServiceImpl implements CatalogosAfiliacionServic
 	}
 	
 	@Override
-	public String getURLAfiliacionGetFamiliarBeneficiario(Integer idFamBeneficiario) {
+	public String getURLAfiliacionGetFamiliarBeneficiario() {
 		String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
 		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getCodigoAfiliacionDeleteFamiliarBeneficiario();
 		String url = moduloService.getURL(codigoModuloAfiliacion, codigoAfiliacionNuevoFamiliarBeneficiario);
