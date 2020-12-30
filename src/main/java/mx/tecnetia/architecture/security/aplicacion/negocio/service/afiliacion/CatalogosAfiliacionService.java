@@ -111,4 +111,6 @@ public interface CatalogosAfiliacionService {
 	
 	public String getURLAfilicacionDeleteFamiliarBeneficiario();
 	
+	public String getURLAfiliacionGetFamiliarBeneficiario(Integer idArqBeneficiario);
+	
 }
