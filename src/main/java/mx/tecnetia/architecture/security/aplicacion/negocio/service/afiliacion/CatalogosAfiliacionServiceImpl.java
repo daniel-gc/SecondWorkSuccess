@@ -518,32 +518,38 @@ public class CatalogosAfiliacionServiceImpl implements CatalogosAfiliacionServic
 
 	@Override
 	public String getURLAfilicacionSaveFamiliarBneneficiario() {
-		/*String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
-		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getcodigoAfiliacionNuevoFamiliarBeneficiario();
+		String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
+		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getCodigoAfiliacionNuevoFamiliarBeneficiario();
 		String url = moduloService.getURL(codigoModuloAfiliacion, codigoAfiliacionNuevoFamiliarBeneficiario);
 
-		return url;*/
-		return "";
+		return url;
 	}
 
 	@Override
 	public String getURLAfiliacionUpdateFamiliarBeneficiario() {
-		/*String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
-		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getcodigoAfiliacionUpdateFamiliarBeneficiario();
+		String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
+		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getCodigoAfiliacionUpdateFamiliarBeneficiario();
 		String url = moduloService.getURL(codigoModuloAfiliacion, codigoAfiliacionNuevoFamiliarBeneficiario);
 
-		return url;*/
-		return "";
+		return url;
 	}
 
 	@Override
 	public String getURLAfilicacionDeleteFamiliarBeneficiario() {
-		/*String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
-		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getcodigoAfiliacionDeleteFamiliarBeneficiario();
+		String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
+		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getCodigoAfiliacionDeleteFamiliarBeneficiario();
 		String url = moduloService.getURL(codigoModuloAfiliacion, codigoAfiliacionNuevoFamiliarBeneficiario);
 
-		return url;*/
-		return "";
+		return url;
+	}
+	
+	@Override
+	public String getURLAfiliacionGetFamiliarBeneficiario(Integer idFamBeneficiario) {
+		String codigoModuloAfiliacion = aplicacionVariablesComponent.getCodigoModuloAfiliacion();
+		String codigoAfiliacionNuevoFamiliarBeneficiario = aplicacionVariablesComponent.getCodigoAfiliacionDeleteFamiliarBeneficiario();
+		String url = moduloService.getURL(codigoModuloAfiliacion, codigoAfiliacionNuevoFamiliarBeneficiario);
+
+		return url;
 	}
 	
 	
